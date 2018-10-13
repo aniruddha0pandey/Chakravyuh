@@ -1,6 +1,8 @@
 # Chakravyuh
 `Chakravyuh` is a third-party (VPN) WiFi enabled gateway extension to use the internet securely running directly on an NodeMCU proved built upon (TLS/SSL) protocol served through Google Cloud. This was the project our team **ALB** started during **[InkMakers](http://www.inktalks.com/makers2018) Make-a-Thon** LPU, Jalandhar, Punjab.  
-While accessing the internet services, there is always a chance of some middle-man to exploit your precious data. One general vulnerability occur using the public Wifi network. Unfortunately, most doesn't establish any type of encryption during public usage. Sometimes, the internet is not equally accessible over different countries, reasons being banning particular domains, websites or government policies and companies own decision.
+While accessing the internet services, there is always a chance of some middle-man to exploit your precious data. One general vulnerability occur using the public Wifi network. Unfortunately, most doesn't establish any type of encryption during public usage. Sometimes, the internet is not equally accessible over different countries, reasons being banning particular domains, websites or government policies and companies own decision. Constraints like these led us to make this project.  
+  
+We're using Secure Socket Layer (SSL) protocol throught VPN. Other notable ones are IP security (IPsec), Point-To-Point Tunneling Protocol (PPTP) and Layer 2 Tunneling Protocol (L2TP).
 
 ## Contributors
 
