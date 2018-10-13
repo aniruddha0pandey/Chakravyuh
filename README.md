@@ -1,5 +1,6 @@
 # Chakravyuh
-Chakravyuh is a third-party Virtual Private Network (VPN) extension to use the internet securely build upon Secure Socket Layer (SSL).
+Chakravyuh is a third-party (VPN) WIFI enabled gateway extension to use the internet securely running directly on an NodeMCU proved built upon (TLS/SSL) protocol served through Google Cloud. This was the project our team **ALB** started during [InkMakers](http://www.inktalks.com/makers2018) Make-a-Thon LPU, Jalandhar, Punjab.
+
 
 ## Contributors
 
