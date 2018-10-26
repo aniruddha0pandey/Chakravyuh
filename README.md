@@ -12,11 +12,9 @@ Since our service use linux as its preferrd OS, we used `OpenSSL` package for en
 ```
 $ sudo pacman -Syu
 $ pacman -S virtualbox # virtualbox-host-modules-arch
-$ sudo modprobe vboxdrv
-$ virtualbox
-$ sudo vim /etc/modules-load.d/virtualbox.conf
+$ sudo touch /etc/modules-load.d/virtualbox.conf >> vboxdrv
 $ sudo usermod -aG vboxusers <username>
-
+$ virtualbox
 ```
 
 ## Contributors
