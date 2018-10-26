@@ -12,7 +12,7 @@ Since our service use linux as its preferrd OS, we used `OpenSSL` package for en
 ```
 $ sudo pacman -Syu
 $ pacman -S virtualbox # virtualbox-host-modules-arch
-$ sudo touch /etc/modules-load.d/virtualbox.conf >> vboxdrv
+$ sudo echo 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 $ sudo usermod -aG vboxusers <username>
 $ virtualbox
 ```
