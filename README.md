@@ -8,7 +8,16 @@ Chakravyuh aims at:
 - Removing ads on web pages and other Inbound junk
   
 We're using Secure Socket Layer (SSL) protocol throught our VPN. Other notable ones are IP security (IPsec), Point-To-Point Tunneling Protocol (PPTP) and Layer 2 Tunneling Protocol (L2TP).  
-Since our service use linux as its preferrd OS, we used `OpenSSL` package for encryption. The VMs are organised using Vagrant.
+Since our service use linux as its preferrd OS, we used `OpenSSL` package for encryption. The VMs are organised using Vagrant. VirtualBox is used as virtualization provider for vagrant.
+```
+$ sudo pacman -Syu
+$ pacman -S virtualbox # virtualbox-host-modules-arch
+$ sudo modprobe vboxdrv
+$ virtualbox
+$ sudo vim /etc/modules-load.d/virtualbox.conf
+$ sudo usermod -aG vboxusers <username>
+
+```
 
 ## Contributors
 
