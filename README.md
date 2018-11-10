@@ -14,7 +14,6 @@ $ sudo pacman -Syu
 $ uname -r # X.Y.Z-1-GENERAL
 $ pacman -S virtualbox # linuxXYZ-virtualbox-host-modules
 $ sudo vboxreload # or reboot (adding vbox modules to kernel)
-$ # sudo echo 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
 $ sudo usermod -aG vboxusers <username>
 $ virtualbox
 ```
