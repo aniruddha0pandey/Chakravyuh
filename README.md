@@ -15,6 +15,7 @@ $ uname -r # X.Y.Z-1-GENERAL
 $ pacman -S virtualbox # linuxXYZ-virtualbox-host-modules
 $ sudo vboxreload # or reboot (adding vbox modules to kernel)
 $ sudo usermod -aG vboxusers <username>
+$ cd ~/Downloads && wget "https://download.virtualbox.org/virtualbox/5.2.22/Oracle_VM_VirtualBox_Extension_Pack-5.2.22.vbox-extpack"
 $ virtualbox
 ```
 
