@@ -11,8 +11,9 @@ We're using Secure Socket Layer (SSL) protocol throught our VPN. Other notable o
 Since our service use linux as its preferrd OS, we used `OpenSSL` package, since offer server authentication, data-in-motion encryption, client authentication, and data integrity mechanisms. The VMs are organised using Vagrant. VirtualBox is used as a virtualization provider for vagrant.
 ```
 $ sudo pacman -Syu
-$ pacman -S virtualbox # virtualbox-host-modules-arch
-$ sudo echo 'vboxdrv' > /etc/modules-load.d/virtualbox.conf
+$ uname -r # X.Y.Z-1-GENERAL
+$ pacman -S virtualbox # linuxXYZ-virtualbox-host-modules
+$ sudo vboxreload # or reboot (adding vbox modules to kernel)
 $ sudo usermod -aG vboxusers <username>
 $ virtualbox
 ```
